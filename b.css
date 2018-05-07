@@ -19,6 +19,13 @@ hr{
     border-top: 1px solid #DEDEDE;
 
 }
+ul,ol{
+    list-style: none;    
+}
+.picture>img:hover{
+    box-shadow: 6px 6px 35px 1px rgba(0,0,0,0.39);
+    transition: box-shadow 1s;
+}
 .text{
     float: left;
     width: 400px;
@@ -26,7 +33,7 @@ hr{
 }
 .topNavBar .logo{
     font-size: 24px;
-    font-family: "Arial Black";
+    font-family: "Comic Sans MS";
     padding-top: 3px;
     padding-bottom: 4px;
 }
@@ -95,18 +102,26 @@ hr{
     height: 516px;
     background-color:rgba(0,0,0,0.4);
 }
+.usercard:hover{
+    box-shadow: 0px 0px 30px 4px rgba(0,0,0,0.54);
+    transition: box-shadow 0.3s;
+}
 .usercard{
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
     background-color: #FFFFFF;
     margin-top: -150px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.44);
 }
 .usercard .welcom{
     background: #E6686A;
     color: white;
     padding: 0px 16px 4px 16px;
     line-height: 22px;
+    font-family: "Comic Sans MS";
+    border-radius: 3px;
     position: relative;
 }
 .usercard .welcom .trangle{
@@ -131,6 +146,7 @@ hr{
 }
 .text h1{
     margin-top:22px;
+    font-family: "Comic Sans MS"
 }
 .text hr{
     margin: 20px 0;
@@ -144,7 +160,7 @@ hr{
     padding:5px 0px;
 }
 .text dl dd{
-    width: 70%;
+    width: 80%;
     padding: 5px 0px;
     color: #9da0a7;
 }
@@ -173,28 +189,75 @@ hr{
 .media{
     text-align: center;
 }
-.anniu{
-    padding: 15px;
-    margin-top: 20px;
-    margin-left: 44%;
-    margin-right: 44%;
-    text-align:center;
-    background: white;
-    border-left: 2px solid transparent;
-    border-right:2px solid transparent;
-    border-top:1px solid transparent;
-    border-bottom:6px solid transparent;
-    max-width: 100%;
-    
+body main .anniu{
+    text-align: center;
 }
-.anniu:hover{
-    border-left: 2px solid #999;
-    border-right:2px solid #999;
-    border-top:1px solid  rgb(116, 116, 116);
-    border-bottom:6px solid rgb(83, 83, 83);
+body main .button{
+    font-size: 14px;
+    border: 1px solid #cdcfd1;
+    padding: 21px 100px ;
+    line-height: 16px;
+    display: inline-block;
+    color: #3d4451;
+    border-radius: 2px;
+    margin: 37px 0px;
+    transition: box-shadow 0.3s;
 }
-.duanluo{
-    border: 1px solid red;
+body main .button:hover{
+    box-shadow: 0px 6px 18px -1px rgba(0,0,0,0.2);
+}
+main .duanluo{
+    margin: 5px;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main .duanluo p{
     text-align:center;
-    margin-top: 20px;
+    border: 0;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-style: inherit;
+    font-weight: 100;
+    vertical-align: baseline;
+    color: #2424249d;
+    margin-bottom: 74px;
+}
+section.skills{
+    max-width:940px;;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+}
+section .skills-size{
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.44);
+    background: #FFFFFF;
+    margin-top: 32px;
+}
+section .skillslist{
+   padding: 40px 50px 10px 50px;
+}
+section.skills h2{
+    text-align: center;
+    color: #3d4451;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+section.skills li{
+    float: left;
+    height: 65px;
+    width: 50%;
+    font-weight: 100;
+}
+.barline{
+    border: 1px solid #fae1e1;
+    height: 5px;
+    width: 400px;
+    background: #fae1e1;
+}
+.bar-fill{
+    height: 100%;
+    width: 50%;
+    background: #e8676B;
 }
