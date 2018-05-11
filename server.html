@@ -125,11 +125,11 @@
             <h2>技能</h2>
             <div class="skills-size">
                     <ol class="skillslist clearfix">
-                            <li>HTML 5 &apm
+                            <li>HTML5
                                 <div class="barline">
                                     <div class="bar-fill"></div>
                                 </div>
-                            </li>
+                                </li>
                             <li>javascrip
                                  <div class="barline">
                                      <div class="bar-fill"></div>
@@ -158,19 +158,40 @@
                         </ol>
                     </section>
             </div>
-        <section>
-            <nav>
-                <ol>
-                    <li>所以</li>
-                    <li>框架</li>
-                    <li>原生JS&amp;CSS</li>
+        <section class="portfilo">
+            <h2>作品集</h2>
+            <nav class="Workfield">
+                <ol class="clearfix">
+                    <li id="portfilo1">所以</li>
+                    <li id="portfilo2">框架</li>
+                    <li id="portfilo3">原生JS&amp;CSS</li>
                 </ol>
+                <div id="portfiloBar" class="bar state-1">
+                    <div class="bar-inner"></div>
+                </div>
             </nav>
+            <script>
+                portfilo1.onclick= function(){
+                    portfiloBar.className = 'bar state-1'
+                }
+                portfilo2.onclick= function(){
+                    portfiloBar.className = 'bar state-2'
+                }
+                portfilo3.onclick= function(){
+                    portfiloBar.className = 'bar state-3'
+                }
+            </script>
         </section>
         <div class="jobs">
-            <div class="big"></div>
-            <div class="small"></div>
-            <div class="small"></div>
+            <div class="big">
+                <img src="./img/big.jpg" alt="big">
+            </div>
+            <div class="small-1">
+                <img src="./img/small-1.jpg" alt="small-1">
+            </div>
+            <div class="small-2">
+                <img src="./img/small-2.jpg" alt="small-2">
+            </div>
         </div>
     </body>
 </html>
