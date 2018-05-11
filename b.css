@@ -347,3 +347,15 @@ section.portfilo .Workfield .bar.state-3 .bar-inner{
     box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.44);
     border-radius: 3px;
 }
+.jobs .big:hover{
+    box-shadow: 0px 0px 30px 2px rgba(0,0,0,0.54);
+    transition: box-shadow 0.5s;
+}
+.jobs .small-1:hover{
+    box-shadow: 0px 0px 30px 2px rgba(0,0,0,0.54);
+    transition: box-shadow 0.5s;
+}
+.jobs .small-2:hover{
+    box-shadow: 0px 0px 30px 2px rgba(0,0,0,0.54);
+    transition: box-shadow 0.5s;
+}
