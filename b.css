@@ -320,10 +320,11 @@ section.portfilo .Workfield .bar.state-3 .bar-inner{
 }
 .jobs{
     position: relative;
-    max-width: 910px;
+    border: 1px solid red;
+    max-width: 920px;
     margin-left: auto;
     margin-right: auto;
-    height: 575px;
+    height: 577px;
     margin-top: 30px;
     margin-bottom: 200px;
 }
@@ -333,10 +334,10 @@ section.portfilo .Workfield .bar.state-3 .bar-inner{
 .jobs .small-1{
     position: absolute;
     top: 299px;
-    left: 616px;
+    left: 626px;
 }
 .jobs .small-2{
     position: absolute;
     top: 0px;
-    left: 616px;
+    left: 626px;
 }
