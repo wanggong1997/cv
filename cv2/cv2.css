@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0 0;
+}
+body{
+    background:grey;
+}
+.topNavbar>nav>ul{
+    border: 1px solid green;
+}
+.topNavbar>nav>ul>li{
+    border: 1px solid red;
+    float: left;
+    list-style: none;
+}
+.topNavbar>nav>ul>li>a{
+    font-size: 12px;
+    color: #BDBDBF;
+    text-decoration: none;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
