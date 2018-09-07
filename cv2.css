@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0 0;
+}
+body{
+    background:black;
+    color: aqua;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.topNavbar>.logo{
+    float: left;
+    border: 1px solid red;
+    font-size: 24px;
+    font-family: "Arial black";
+}
+.youtu{
+    color: #FFFFFF;
+    font-family: "comic sans ms";
+    padding:14px 0px 14px 60px;
+    display: inline-block;
+}
+.youtu2{
+    color: #FFFFFF;
+    font-family: "comic sans ms";
+}
+.youtu3{
+    color: #FFFFFF;
+    font-family: "comic sans ms";
+}
+.banner{
+    border: 1px solid red;
+    height: 300px;
+}
+.topNavbar{
+    padding-left: 14px;
+    padding-right: 30px;
+    min-width: 1263px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    height: 66px;
+}
+.topNavbar>.topbar{
+    float: right;
+}
+.topNavbar>.topbar>ul{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 478px;
+}
+.topNavbar>.topbar>ul>li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.topNavbar>.topbar>ul>li>a{
+    font-size: 16px;
+    color:#FFFFFF;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    display: block;
+    
+}
+.topNavbar>.topbar>ul>li>a:hover{
+    border-bottom: 3px solid #e06567;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
