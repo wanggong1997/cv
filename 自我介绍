@@ -1,0 +1,53 @@
+<!DOCTYPE.html>
+
+<html>
+    <head>
+        <title>汪龚的简历</title>
+        <link rel="stylesheet" href="./b.css">
+        <script src="//at.alicdn.com/t/font_649992_o31fvj3y4e56d2t9.js"></script>
+        <style type="text/css">
+            .icon {
+               width: 1em; height: 1em;
+               vertical-align: -0.15em;
+               fill: currentColor;
+               overflow: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div class="usercard clearfix">
+                <div class="pictureAndtex clearfix">
+                    <div class="picture">
+                        <img src="https://wanggong1997.github.io/111/外边距合并作业picture/汪龚.jpg" alt="头像">
+                    </div>
+                    <div class="text">
+                        <span class="welcom">Hello
+                            <span class="trangle" ></span>
+                        </span>
+                        <h2>v_wgongwang(汪龚)</h2>
+    
+                        <hr>
+                        <dl>
+                        <dt>星座</dt>
+                        <dd>巨蟹座</dd>
+                        <dt>QQ</dt>
+                        <dd>2645660893</dd>
+                        <dt>座位号</dt>
+                        <dd>FH15F-252</dd>
+                        <dt>所学专业</dt>
+                        <dd>机电一体化</dd>
+                        <dt>兴趣爱好</dt>
+                        <dd>唱歌 轮滑</dd>
+                        <dt>想说的话</dt>
+                        <dd>加油吧！少年</dd>
+                        </dl>
+                    </div>
+                </div>      
+            
+            </div>
+            
+            </div>
+        </div>
+    </body>
+</html>
